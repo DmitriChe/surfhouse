@@ -1,0 +1,745 @@
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Raleway Heavy";
+    src: url(../fonts/Raleway-Heavy.ttf);
+}
+@font-face {
+    font-family: "Raleway ExtraBold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "Roboto BlackItalic";
+    src: url(../fonts/Roboto-BlackItalic.ttf);
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+15,75aad6+36,207cca+69,7db9e8+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 15%, #75aad6 36%, #207cca 69%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 15%,#75aad6 36%,#207cca 69%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #1e5799 0%,#2989d8 15%,#75aad6 36%,#207cca 69%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 700px;
+    background: url(../images/background.jpg) center center;
+    background-size: cover;
+}
+
+.header .container {
+    position: relative;
+}
+
+.xsNavbar {
+    border: none;
+    margin: 0 -15px;
+    z-index: 1;
+}
+
+.navbar-brand.xsLogo {
+    font-family: "Raleway Black", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    background: url(../images/surfhouse-logo-notext.png) no-repeat 15px center;
+    background-size: 15%;
+    padding-left: 55px;
+}
+
+.navbar-brand.xsLogo:hover {
+    color: black;
+}   
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.logo {
+    padding-top: 89px;
+    display: block;
+    background: url(../images/surfhouse-logo-notext.png) no-repeat center top;
+    width: 125px;
+    height: 111px;
+    position: absolute;
+    top: 24px;
+    left: 69px;
+    font-family: "Raleway Black", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.header-socials {
+    width: 120px;
+    position: absolute;
+    top: 50px;
+    right: 64px;
+    padding: 15px;
+}
+
+.header-socials i {
+    color: #ffffff;
+}
+
+.header-welcome {
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+    position: absolute;
+    top: 336px;
+    font-family: "Raleway Bold", sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+}
+
+.header-welcome-title {    
+    font-size: 30px;
+    padding: 79px 0 20px 25px;
+}
+
+.header-welcome-text {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 14px;
+    padding-left: 20px;
+}
+
+.header-funride {
+    position: absolute;
+    top: 244px;
+    right: 109px;
+    text-align: left;
+    color: #fff51f;
+}
+
+.header-funride-title {
+    font-family: "Raleway ExtraBold", sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 0.71;
+}
+
+.header-funride-text {
+    font-family: "Raleway Regular", sans-serif;
+    padding-top: 6px;
+    font-size: 18px;
+    line-height: 1.34;
+}
+
+.header-funride-button {
+    display: block;
+    width: 124px;
+    height: 49px;
+    background-color: #fff51f;
+    margin-top: 62px;
+    margin-left: 2px;
+    line-height: 49px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.content {
+    margin-top: -20px;
+}
+
+.content-left-menu {
+    background-color: #26d2fc;
+}
+
+.menu-title {
+    height: 66px;
+    background-color: #333333;
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding-top: 32px;
+    padding-left: 42px;
+}
+
+.menu-list > li > a {
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 43px;
+    color: #000000;
+    padding-left: 40px;
+}
+
+.menu-list > li > a:visited {
+    color: #333333;
+}
+
+.menu-list > li > a:hover {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.content-left-news {
+    height: 300px;
+    background-color: #e0e0e0;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 10px solid #ffffff;
+}
+
+.content-left-news-inside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/store.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.content-left-news-inside > span {
+    font-family: "Raleway Heavy", sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: left;
+    color: #333333;
+    position: absolute;
+    top: 124px;
+    right: 15px;
+}
+
+.product-group:nth-child(n + 2) {
+    margin-top: 46px;
+}
+
+.product-group > p {
+    background-color: #f8f8f8;
+    font-family: "Roboto BlackItalic", sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    color: #707070;
+    padding: 31px 0 28px 26px;
+}
+
+.product-item {
+    position: relative;
+    box-sizing: border-box;
+    border: 10px solid #ffffff;
+    background-color: #ffffff;
+    font-family: "Roboto BlackItalic", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.product-item > a {
+    display: block;
+    width: 100%;
+    background-color: #eaeaea;
+}
+
+.product-item > a > img {
+    width: inherit;
+}
+
+.product-new-corner {
+    width: 0;
+    height: 0;
+    border-top: 46px solid red;
+    border-left: 46px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 1;   
+}
+
+.product-new-corner::after {
+    content: "NEW";
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-right: 4px;
+    position: absolute;
+    top: -46px;
+    right: 2px;
+    z-index: 1;
+}
+
+.product-hot-corner {
+    width: 0;
+    height: 0;
+    border-top: 46px solid yellow;
+    border-left: 46px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 1;
+}
+
+.product-hot-corner::after {
+    content: "НОТ";
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #000000;
+    padding-top: 8px;
+    padding-right: 4px;
+    position: absolute;
+    top: -46px;
+    right: 0;
+    z-index: 1;
+}
+
+.name-and-price-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 45px;
+}
+
+.product-name {
+    font-size: 14px;
+    max-height: 2.8em;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.product-price {
+    text-align: right;
+    font-size: 18px;
+}
+
+.product-oldprice {
+    text-align: right;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: rgba(254, 0, 0, 0.6);
+    opacity: 0.6;
+}
+
+.hot-discount {
+    color: #e24602;
+    opacity: 1;    
+}
+
+.content-brand {
+    margin-top: 30px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px 15px;
+}
+
+.content-brand > img {
+    margin: 5px;
+}
+
+.content-instagram {
+    min-height: 350px;
+    background-color: #eaeaea;
+}
+
+.content-instagram-header {
+    background-color: #eaeaea;
+    font-family: "Roboto BlackItalic", sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 105px;
+    color: #333333;
+    text-align: center;
+}
+
+.content-instagram-header span {
+    font-size: 18px;
+}
+
+.content-instagram-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-instagram-images img  {
+    margin: 2px;
+}
+
+.content-socials {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content-socials > a {
+    width: calc(100% / 3);
+    display: table-cell;
+    text-align: center;
+    font-size: 62px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 150px;
+}
+
+.content-socials .facebook {
+    background-color: #3b5997;
+}
+
+.content-socials .twitter {
+    background-color: #3fccfd;
+}
+
+.content-socials .pinterest {
+    background-color: #cb2027;
+}
+
+.footer-main {
+    min-height: 340px;
+    background-color: #373737;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.footer-main-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-main-inside::before,
+.footer-main-inside::after {
+    display: none;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section:nth-child(1) {
+    margin-left: 0;
+}
+.footer-section:nth-child(5) {
+    margin-right: 0;
+}
+
+.footer-titles {
+    font-family: "Raleway ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 26px;
+}
+
+.footer-section:nth-child(n + 4) .footer-titles {
+    margin-bottom: 5px;
+}
+
+.footer-links > a {
+    display: block;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.footer-submit {
+    margin: 18px 0 45px;
+}
+
+.footer-submit-email {
+    float: left;
+    width: 180px;
+    height: 30px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 5px;
+    background-color: #fff51f;
+    color: #cb2027;
+    font-weight: bold;
+}
+
+.footer-submit-button {
+    width: 70px;
+    height: 30px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer-submit::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.footer-payments {
+    width: 267px;
+    margin-left: -10px;
+}
+
+.footer-text {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+}
+
+.footer-contacts {
+    margin-top: 8px;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.footer-contacts > a {
+    color: #faef03;
+}
+
+.footer-bottom {
+    background-color: #333333;
+}
+
+.footer-bottom-inside {
+    background-color: #333333;
+    min-height: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-inside::before,
+.footer-bottom-inside::after {
+    display: none;
+}
+
+.footer-bottom-copyright {
+    margin-left: 6px;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    line-height: 47px;
+    color: #dad9d9;
+}
+
+.footer-bottom-copyright > i {
+    font-size: 13px;
+}
+
+.footer-bottom-copyright > a{
+    color: inherit;
+}
+
+.footer-bottom-copyright > a:hover {
+    text-decoration-line: underline;
+}
+
+.footer-bottom {
+    background-color: #333333;
+}
+
+.footer-bottom-copyright {
+    float: left;
+    margin-left: 6px;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    line-height: 50px;
+    color: #dad9d9;
+}
+
+.footer-bottom-copyright > i {
+    font-size: 13px;
+}
+
+.footer-bottom-copyright > a{
+    color: inherit;
+}
+
+.footer-bottom-copyright > a:hover {
+    text-decoration-line: underline;
+}
+
+.footer-bottom-socials {
+    min-width: 178px;
+}
+
+.footer-bottom-socials i {
+    font-size: 15px;
+    line-height: 47px;
+    color: #ffffff;
+}
+
+.header-socials,
+.footer-payments,
+.footer-bottom-socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 350px) {
+
+    .footer-main-inside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section,
+    .footer-bottom-copyright {
+        display: table-cell;
+        text-align: center;
+    }
+
+    .footer-submit {
+        margin: 10px;
+        min-height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-payments {
+        width: auto;
+        min-height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        height: 835px;
+    }
+
+    .header-welcome {
+        top: 111px;
+        left: 15px;
+    }
+
+    .header-socials {
+        top: 50px;
+        left: 15px;
+        min-width: 270px;
+    }
+
+    .header-socials a i {
+        font-size: 24px;
+    }
+
+    .header-funride {
+        top: 425px;
+        left: 15px;
+    }
+
+    .content {
+        margin-top: 0;
+    }
+
+    .content-left-news {
+        margin-top: 15px;
+    }
+
+    .content-left-news-inside > span {
+        top: 124px;
+        right: 15px;
+    }
+
+    .product-group-new {
+        margin-top: 15px;
+    }
+
+    .content-socials {        
+        min-height: 450px;
+        flex-direction: column;
+        align-items: stretch;
+    }    
+
+    .content-socials > a {
+        width: auto;
+    }
+    
+    .footer-bottom-inside {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer-bottom-inside > div {
+        min-height: inherit;
+    }
+}
+
+@media (min-width: 583px) and (max-width: 767px) {
+    .product-unit-col {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-section {
+        flex-grow: 1;
+        margin: 10px;
+    }
+    .footer-section:nth-child(1) {
+        margin-left: 0;
+    }
+    .footer-section:nth-child(4) {
+        margin-right: 0;
+    }
+    .footer-section:nth-child(5) {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-welcome {
+        top: 244px;
+    }
+}
